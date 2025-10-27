@@ -642,9 +642,10 @@ height: 548px;
 }
 .seven{
     width: 100%;
-    width: 560px;   
+    width: 560px;  
+    background-color: aliceblue; 
 }
 
 .abt-svn{
-    
+    width: 100%;
 }
