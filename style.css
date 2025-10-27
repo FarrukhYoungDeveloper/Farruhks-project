@@ -1,0 +1,650 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(17, 24, 39);
+    overflow-x: hidden;
+}
+
+.home-page {
+    background-color: rgb(3, 7, 18);
+    width: 100%;
+    height: 820px;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.all {
+    width: 1600px;
+    height: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu-page {
+    width: 100%;
+    height: 752px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 96px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.ss {
+    height: 36px;
+    width: 554px;
+    margin-left: 30px;
+    display: flex;
+
+}
+
+.ss ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.dwnld {
+    height: 100%;
+    width: 136px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.ssa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 176px;
+    height: 100%;
+
+}
+
+.ssd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ss ul li {
+    color: white;
+    font-size: 16;
+    font-weight: 500;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.gg {
+    width: 1280px;
+    height: 460px;
+    display: flex
+}
+
+
+.gga {
+    width: 922px;
+    height: 100%;
+    margin-right: 70px;
+    margin-left: 40px;
+
+}
+
+.ggb {
+    width: 500px;
+    hh: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.society {
+    margin-top: 100px;
+    width: 100%;
+    height: 40px;
+}
+
+.second-page {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in {
+    width: 1280px;
+    height: 770px;
+
+}
+
+.aa {
+    width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bb {
+    width: 100%;
+    height: 694px;
+    margin-top: 47px;
+    display: flex;
+}
+
+.hh {
+    width: 47%;
+    height: 100%;
+    margin-right: 78px;
+
+}
+
+
+.oo {
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+}
+
+.about-btn {
+    border: none;
+    color: white;
+    background-color: rgb(3, 7, 18);
+    height: 100%;
+    border-radius: 10px;
+    width: 105px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.desc {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: rgb(209, 213, 219);
+}
+
+.link {
+    color: rgb(96, 165, 250);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.facts-title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+.facts-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    gap: 10px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.desc.end {
+    margin-top: 10px;
+    color: rgb(209, 213, 219);
+}
+
+.third-page {
+    width: 100%;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 7, 18);
+}
+
+.skills {
+    width: 1080px;
+    height: 368px;
+
+}
+
+.sk {
+    width: 90%;
+    margin: 0px 5%;
+    height: 72px;
+}
+
+.sklll {
+    width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sklll button {
+    width: 75px;
+    height: 28px;
+    border-radius: 9px;
+    color: white;
+    background-color: rgb(55, 65, 81);
+    border: none;
+    cursor: pointer;
+}
+
+.skla {
+    width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 16px;
+
+}
+
+.sg {
+    width: 90%;
+    height: 248px;
+    margin: 0PX 5%;
+    margin-top: 47PX;
+}
+
+.first-floor {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.second-floor {
+    width: 100%;
+    height: 100px;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hhy {
+    height: 100%;
+    width: 88px;
+    text-align: center;
+
+}
+
+.hhy p {
+    color: white;
+}
+
+.quatro {
+    width: 100%;
+    height: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qtr {
+    width: 80%;
+    height: 80%;
+
+}
+
+.experience {
+    width: 95%;
+    height: 72px;
+    margin: 0px 2.5%;
+
+}
+
+.up {
+    width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down {
+    width: 100%;
+    height: 28px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.up button {
+    width: 115px;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(55, 65, 81);
+    color: white;
+}
+
+.qwe {
+    width: 896px;
+    height: 264px;
+    margin-top: 10px;
+    margin-left: 330px;
+    border-radius: 20px;
+    background-color: rgb(55, 65, 81);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flf {
+    width: 95%;
+    height: 90%;
+    margin: 10% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upwork {
+    width: 206px;
+    height: 28px;
+
+}
+
+.dev {
+    height: 100%;
+    width: 384px;
+    color: white;
+}
+
+.data {
+    height: 24px;
+    width: 146px;
+    color: white;
+}
+
+.dev ul li {
+    width: 100%;
+}
+
+.fifth {
+    width: 100%;
+    height: 1848px;
+    background-color: rgb(3, 7, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Work {
+    width: 95%;
+    height: 72px;
+    margin: 0px 2.5%;
+
+}
+
+.rrr {
+    width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ccc {
+    width: 100%;
+    height: 28px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+
+.rrr button {
+    width: 115px;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(55, 65, 81);
+    color: white;
+
+}
+
+
+.qtb {
+    width: 80%;
+    height: 1656px;
+
+
+}
+
+
+.hpa {
+    width: 1152px;
+    height: 480px;
+    margin: 0px 12.5%;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 10;
+    margin-top: 50px;
+}
+
+.kpa {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(55, 65, 81);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-div {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 20px;
+    background: url(./13a157f2d0bfafa5cbd6a89dfe634a542f95ebd2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kpb {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(17, 24, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.gghub {
+    width: 80%;
+    height: 80%;
+
+}
+
+.fhub {
+    width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+
+}
+
+.shub {
+    width: 100%;
+    height: 96px;
+    margin-top: 30px;
+
+}
+
+.thhub {
+    width: 100%;
+    height: 100px;
+        margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.qhub {
+    width: 100%;
+    height: 36px;
+        margin-top: 30px;
+
+
+}
+
+
+.coders{
+    height: 28px;
+    background-color: rgb(55, 65, 81);
+    margin-right: 20px;
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.coders p {
+    padding: 0px 12px;
+
+}
+
+.sixth{
+    width: 100%;
+    height: 740px;
+    background-color: rgb(17, 24, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-six{
+    width: 1280px;
+height: 548px;
+    padding: 0px 32px;
+}
+
+
+.john{
+    width: 1216px;
+    height: 428px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonials{
+    width: 1216px;
+    height: 72px;
+
+}
+
+.kl{
+    width: 100%;
+    height: 28px;
+    text-align: center;
+    color: white;
+
+}
+
+.kk{
+    width: 100%;
+    height: 28px;
+    text-align: center;
+    margin-top: 16px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.kl button{
+    width: 125px;
+    height: 28px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    font-weight: 400; 
+    background-color: #374151;
+
+}
+
+.about{
+    width: 373px;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #374151;
+}
+
+.seventh{
+    width: 100%;
+    height: 628px;
+    background-color: rgb(3, 7, 18);
+}
+
+
+.footer{
+    width: 100%;
+    height: 68px;
+    background-color: rgb(17, 24, 39);
+    
+}
+.seven{
+    width: 100%;
+    width: 560px;   
+}
+
+.abt-svn{
+    
+}
